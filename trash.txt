@@ -1,0 +1,7 @@
+    if(req.body.list === "work"){
+      workItems.push(Item);
+      res.render("/work");      
+    } else {
+      Items.push(Item);
+      res.redirect("/");
+    }    
